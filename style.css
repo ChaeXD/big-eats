@@ -1,0 +1,40 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #500010;
+}
+/* Header Section */
+header nav {
+    background-color: #eaf42e;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+    height: 80px;
+    align-items: center;
+}
+header nav li {
+    list-style-type: none;
+    padding: 30px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #500010;
+    font-weight: bold;
+}
+header nav a:hover {
+    color: #9b0725;
+}
+header h1 {
+    text-align: center;
+    color: #eaf42e;
+    margin: 30px 0;
+    font-size: 100px;
+}
